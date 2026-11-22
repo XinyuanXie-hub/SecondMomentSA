@@ -60,20 +60,20 @@ $\bar\epsilon\geq 0$, almost surely
 **Theorem 3.4.** (Convergence of practical algorithms.) Assume A and B, and suppose that
 $\mathbf{E}[\lVert X_0\rVert_F^2]<\infty$. Assume also the following conditions.
 
-1. (a) For some constant $b$, the conditional variance of the practical
-   direction satisfies, for every $t\geq 0$, almost surely
+**(a)** For some constant $b$, the conditional variance of the practical
+direction satisfies, for every $t\geq 0$, almost surely
 
-   ```math
-   \mathrm{Var}_t[\phi(\hat M_t,\hat W_t)]\leq b.
-   ```
+```math
+\mathrm{Var}_t[\phi(\hat M_t,\hat W_t)]\leq b.
+```
 
-2. (b) The step sizes $\alpha_t$ are deterministic and satisfy
+**(b)** The step sizes $\alpha_t$ are deterministic and satisfy
 
-   ```math
-   \alpha_t\geq 0,\qquad
-   \sum_{t=0}^{\infty}\alpha_t=\infty,\qquad
-   \sum_{t=0}^{\infty}\alpha_t^2<\infty.
-   ```
+```math
+\alpha_t\geq 0,\qquad
+\sum_{t=0}^{\infty}\alpha_t=\infty,\qquad
+\sum_{t=0}^{\infty}\alpha_t^2<\infty.
+```
 
 Then the iterates of (49) satisfy the bound (54) almost surely.
 
